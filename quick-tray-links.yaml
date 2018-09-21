@@ -3,7 +3,8 @@ links:
   - icon: fa fa-book
     link: https://learn.getgrav.org
     tooltip: Grav Documentation and Tutorials
+    target: _blank
   - icon: fa fa-info
     link: /admin/config/info
     tooltip: PHP Information
-
+    target: _self

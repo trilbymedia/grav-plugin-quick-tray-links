@@ -46,6 +46,11 @@ form:
           validate:
             required: true
 
+        .target:
+          type: text
+          label: URL target
+          default: _self
+
         .tooltip:
           type: textarea
           label: Tooltip

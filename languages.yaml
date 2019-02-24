@@ -1,0 +1,23 @@
+en:
+  PLUGIN_QUICK_TRAY_LINKS:
+    LINKS: 'Links'
+    LINKS_HELP: 'Links defined here will show up in the navigation quick-tray'
+    ICON: 'Icon'
+    LINK: 'Link'
+    TOOLTIP: 'Tooltip'
+
+ru:
+  PLUGIN_QUICK_TRAY_LINKS:
+    LINKS: 'Ссылки'
+    LINKS_HELP: 'Определенные здесь ссылки будут отображаться в панели быстрого доступа'
+    ICON: 'Иконка'
+    LINK: 'Ссылка'
+    TOOLTIP: 'Подсказка'
+
+uk:
+  PLUGIN_QUICK_TRAY_LINKS:
+    LINKS: 'Посилання'
+    LINKS_HELP: 'Визначені тут посилання відображатимуться у швидкому лотку навігації'
+    ICON: 'Іконка'
+    LINK: 'Посилання'
+    TOOLTIP: 'Підказка'

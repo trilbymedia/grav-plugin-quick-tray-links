@@ -1,5 +1,7 @@
 name: Quick Tray Links
-version: 1.0.0
+type: plugin
+slug: quick-tray-links
+version: 1.0.1
 description: Easily add cusotmizable admin quick tray links
 icon: link
 author:

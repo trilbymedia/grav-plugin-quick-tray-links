@@ -35,6 +35,7 @@ class QuickTrayLinksPlugin extends Plugin
             $options = [
                 'icon' => $link['icon'],
                 'route' => $link['link'],
+                'target' => $link['target'],
                 'hint' => isset($link['tooltip']) ? $link['tooltip'] : ''
             ];
             $this->grav['twig']->plugins_quick_tray['QuickTrayLinks-' . $counter++] = $options;

@@ -28,9 +28,11 @@ links:
   - icon: fa fa-book
     link: https://learn.getgrav.org
     tooltip: Grav Documentation and Tutorials
+    external: true
   - icon: fa fa-info
     link: /admin/config/info
     tooltip: PHP Information
+    external: true
 ```
 
 Possible fields for each link include:
@@ -38,6 +40,7 @@ Possible fields for each link include:
 * `icon` - icon classes to render icon
 * `link` - Can be a relative URL or an absolute URL
 * `tooltip` - The tooltip to display on hover
+* `external` - Set to true, to open the link in a new window
 * `class` - Any CSS classes you wish to add to the icon link
 * `authorize` - A string that can be use to check authorization
 

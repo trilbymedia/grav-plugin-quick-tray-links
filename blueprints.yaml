@@ -51,3 +51,15 @@ form:
         .tooltip:
           type: textarea
           label: PLUGIN_QUICK_TRAY_LINKS.TOOLTIP
+        
+        .external:
+          type: toggle
+          label: PLUGIN_QUICK_TRAY_LINKS.EXTERNAL.LABEL
+          help: PLUGIN_QUICK_TRAY_LINKS.EXTERNAL.HINT
+          highlight: 1
+          default: 1
+          options:
+              0: PLUGIN_QUICK_TRAY_LINKS.NO
+              1: PLUGIN_QUICK_TRAY_LINKS.YES
+          validate:
+              type: bool

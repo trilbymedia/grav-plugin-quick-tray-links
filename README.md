@@ -39,6 +39,7 @@ Possible fields for each link include:
 
 * `icon` - icon classes to render icon
 * `link` - Can be a relative URL or an absolute URL
+* `target` - Default to the page the link is clicked in
 * `tooltip` - The tooltip to display on hover
 * `external` - Set to true, to open the link in a new window
 * `class` - Any CSS classes you wish to add to the icon link

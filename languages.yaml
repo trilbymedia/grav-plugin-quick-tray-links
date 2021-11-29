@@ -26,7 +26,13 @@ uk:
     ICON: 'Іконка'
     LINK: 'Посилання'
     TOOLTIP: 'Підказка'
-
+fr:
+  PLUGIN_QUICK_TRAY_LINKS:
+    LINKS: 'Liens'
+    LINKS_HELP: 'Les liens ajoutés ici apparaitront dans la barre d'accès rapide du menu'
+    ICON: 'Icone'
+    LINK: 'Lien'
+    TOOLTIP: 'Infobulle'
 de:
   PLUGIN_QUICK_TRAY_LINKS:
     LINKS: 'Links'

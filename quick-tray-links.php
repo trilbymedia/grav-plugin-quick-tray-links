@@ -37,6 +37,9 @@ class QuickTrayLinksPlugin extends Plugin
                 'route' => $link['link'],
                 'hint' => isset($link['tooltip']) ? $link['tooltip'] : ''
             ];
+            if ($link['external'] == true) {
+                $options['target'] = '_blank';
+            }
             $this->grav['twig']->plugins_quick_tray['QuickTrayLinks-' . $counter++] = $options;
         }
     }

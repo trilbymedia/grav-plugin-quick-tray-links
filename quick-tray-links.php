@@ -32,6 +32,9 @@ class QuickTrayLinksPlugin extends Plugin
         $counter = 0;
 
         foreach ($this->grav['config']->get('plugins.quick-tray-links.links') as $link) {
+            if ($link == null || $link == false) {
+                continue;
+            }
             $options = [
                 'icon' => $link['icon'],
                 'route' => $link['link'],

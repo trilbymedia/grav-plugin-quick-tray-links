@@ -38,7 +38,9 @@ class QuickTrayLinksPlugin extends Plugin
             $options = [
                 'icon' => $link['icon'],
                 'route' => $link['link'],
-                'hint' => isset($link['tooltip']) ? $link['tooltip'] : ''
+                'hint' => isset($link['tooltip']) ? $link['tooltip'] : '',
+                'authorize' => isset($link['authorize']) ? $link['authorize'] : ''
+
             ];
             if ($link['external'] == true) {
                 $options['target'] = '_blank';

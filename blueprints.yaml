@@ -1,7 +1,7 @@
 name: Quick Tray Links
 type: plugin
 slug: quick-tray-links
-version: 1.1.1
+version: 1.1.2
 description: Easily add customizable admin quick tray links
 icon: link
 author:
@@ -51,7 +51,7 @@ form:
         .tooltip:
           type: textarea
           label: PLUGIN_QUICK_TRAY_LINKS.TOOLTIP
-        
+
         .external:
           type: toggle
           label: PLUGIN_QUICK_TRAY_LINKS.EXTERNAL.LABEL

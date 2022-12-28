@@ -1,20 +1,22 @@
 # v1.1.0
-##  01/20/2021
+## 12/28/2022
 
 1. [](#new)
-    * Added functionality for external links
-2. [](#improved)
-    * Added german translation
+   * Support external links [#10](https://github.com/trilbymedia/grav-plugin-quick-tray-links/pull/10)
+1. [](#improved)
+   * Skip empty links + support authorization [#13](https://github.com/trilbymedia/grav-plugin-quick-tray-links/pull/13)
+1. [](#bugfix)
+   * Fixed translations because of special chars [#14](https://github.com/trilbymedia/grav-plugin-quick-tray-links/pull/14)
 
 # v1.0.1
-##  12/02/2020
+## 12/02/2020
 
 1. [](#improved)
-    * Added translations
-    * Updated blueprints
+   * Added translations
+   * Updated blueprints
 
 # v1.0.0
-##  08/15/2017
+## 08/15/2017
 
 1. [](#new)
-    * ChangeLog started...
+   * ChangeLog started...

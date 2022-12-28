@@ -5,6 +5,11 @@ en:
     ICON: 'Icon'
     LINK: 'Link'
     TOOLTIP: 'Tooltip'
+    EXTERNAL:
+      LABEL: 'External'
+      HINT: 'Opens the link in a new window'
+    YES: 'Yes'
+    NO: 'No'
 
 ru:
   PLUGIN_QUICK_TRAY_LINKS:
@@ -21,3 +26,22 @@ uk:
     ICON: 'Іконка'
     LINK: 'Посилання'
     TOOLTIP: 'Підказка'
+fr:
+  PLUGIN_QUICK_TRAY_LINKS:
+    LINKS: 'Liens'
+    LINKS_HELP: "Les liens ajoutés ici apparaitront dans la barre d'accès rapide du menu"
+    ICON: 'Icone'
+    LINK: 'Lien'
+    TOOLTIP: 'Infobulle'
+de:
+  PLUGIN_QUICK_TRAY_LINKS:
+    LINKS: 'Links'
+    LINKS_HELP: 'Hier definierte Links werden im Quick-Tray angezeigt'
+    ICON: 'Icon'
+    LINK: 'Link'
+    TOOLTIP: 'Tooltip'
+    EXTERNAL:
+      LABEL: 'Extern'
+      HINT: 'Öffnet den Link in einem neuen Fenster'
+    YES: 'Ja'
+    NO: 'Nein'

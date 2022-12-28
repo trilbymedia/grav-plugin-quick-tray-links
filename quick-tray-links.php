@@ -32,11 +32,19 @@ class QuickTrayLinksPlugin extends Plugin
         $counter = 0;
 
         foreach ($this->grav['config']->get('plugins.quick-tray-links.links') as $link) {
+            if ($link == null || $link == false) {
+                continue;
+            }
             $options = [
                 'icon' => $link['icon'],
                 'route' => $link['link'],
-                'hint' => isset($link['tooltip']) ? $link['tooltip'] : ''
+                'hint' => isset($link['tooltip']) ? $link['tooltip'] : '',
+                'authorize' => isset($link['authorize']) ? $link['authorize'] : ''
+
             ];
+            if ($link['external'] == true) {
+                $options['target'] = '_blank';
+            }
             $this->grav['twig']->plugins_quick_tray['QuickTrayLinks-' . $counter++] = $options;
         }
     }

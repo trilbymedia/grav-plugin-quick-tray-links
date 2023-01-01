@@ -1,3 +1,9 @@
+# v1.1.1
+## 01/01/2023
+
+1. [](#bugfix)
+   * Fixed error when `$link['external']` is not set
+
 # v1.1.0
 ## 12/28/2022
 

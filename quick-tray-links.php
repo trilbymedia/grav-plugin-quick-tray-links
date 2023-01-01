@@ -42,7 +42,7 @@ class QuickTrayLinksPlugin extends Plugin
                 'authorize' => isset($link['authorize']) ? $link['authorize'] : ''
 
             ];
-            if ($link['external'] == true) {
+            if (isset($link['external']) and $link['external'] == true) {
                 $options['target'] = '_blank';
             }
             $this->grav['twig']->plugins_quick_tray['QuickTrayLinks-' . $counter++] = $options;

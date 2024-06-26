@@ -63,3 +63,13 @@ form:
               1: PLUGIN_QUICK_TRAY_LINKS.YES
           validate:
               type: bool
+
+        .authorize:
+          type: acl_picker
+          label: PLUGIN_QUICK_TRAY_LINKS.ACCESS.LABEL
+          help: PLUGIN_QUICK_TRAY_LINKS.ACCESS.HINT
+          ignore_empty: true
+          data_type: access
+          validate:
+            type: array
+            value_type: bool

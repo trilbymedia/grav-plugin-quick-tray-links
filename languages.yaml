@@ -8,6 +8,9 @@ en:
     EXTERNAL:
       LABEL: 'External'
       HINT: 'Opens the link in a new window'
+    ACCESS:
+      LABEL: 'Access'
+      HINT: 'Who can see this link'
     YES: 'Yes'
     NO: 'No'
 
@@ -43,5 +46,8 @@ de:
     EXTERNAL:
       LABEL: 'Extern'
       HINT: 'Öffnet den Link in einem neuen Fenster'
+    ACCESS:
+      LABEL: 'Zugriff'
+      HINT: 'Wer diesen Link sehen kann'
     YES: 'Ja'
     NO: 'Nein'

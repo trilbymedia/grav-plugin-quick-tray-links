@@ -29,6 +29,7 @@ uk:
     ICON: 'Іконка'
     LINK: 'Посилання'
     TOOLTIP: 'Підказка'
+
 fr:
   PLUGIN_QUICK_TRAY_LINKS:
     LINKS: 'Liens'
@@ -36,6 +37,7 @@ fr:
     ICON: 'Icone'
     LINK: 'Lien'
     TOOLTIP: 'Infobulle'
+
 de:
   PLUGIN_QUICK_TRAY_LINKS:
     LINKS: 'Links'

@@ -30,8 +30,8 @@ form:
 
     links:
       type: list
-      label: PLUGIN_QUICK_TRAY_LINKS.LINKS
-      help: PLUGIN_QUICK_TRAY_LINKS.LINKS_HELP
+      label: PLUGIN_QUICK_TRAY_LINKS.LINKS.LABEL
+      help: PLUGIN_QUICK_TRAY_LINKS.LINKS.HINT
 
       fields:
         .icon:

@@ -1,3 +1,9 @@
+# v1.1.2
+## 01/29/2025
+
+1. [](#improved)
+   * Added access rights configuration in admin [#18](https://github.com/trilbymedia/grav-plugin-quick-tray-links/pull/18)
+
 # v1.1.1
 ## 01/01/2023
 

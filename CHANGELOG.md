@@ -1,3 +1,9 @@
+# v1.1.4
+## 06/26/2026
+
+1. [](#new)
+    * Links now show in the Admin2 top-right tray via the new menubar API [#19](https://github.com/trilbymedia/grav-plugin-quick-tray-links/issues/19)
+
 # v1.1.3
 ## 05/01/2026
 
